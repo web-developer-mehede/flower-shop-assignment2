@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS Link -->
+     <link rel="stylesheet" href="style.css">
+    <!-- Tailwind CSS Link -->
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Font Link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome Link -->
+     <script src="https://kit.fontawesome.com/47fec407da.js" crossorigin="anonymous"></script>
+    <!-- Tailwind Custom Styles -->
+      <style type="text/tailwindcss">
+      @theme {
+        --color-clifford: #da373d;
+        --text-primary: #252432;
+        --text-secondary: #8987A1;
+        --color-primary: #E95A08;
+      }
+    </style>
+</head>
+<body>
+    <!-- Header Section Start -->
+    <header class="inter-font bg-[#f5f8ff]">
+        <!-- Nav Section Start -->
+         <nav class="flex justify-between items-center w-10/12 mx-auto py-8">
+            <div>
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="flex items-center gap-10">
+                <div class="hidden md:block">
+                    <ul class="flex gap-10">
+                        <li><a class="font-bold text-[var(--text-primary)]" href="#">Home</a></li>
+                        <li><a class="text-[var(--text-secondary)]" href="#">Shop</a></li>
+                        <li><a class="text-[var(--text-secondary)]" href="#">About us</a></li>
+                    </ul>
+                </div>
+                <div class="flex justify-between items-center gap-2">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p>Cart ($56)</p>
+                </div>
+            </div>
+         </nav>
+         <!-- Hero Section Start -->
+         <section class="bg-[#f5f8ff]">
+            <div class="w-10/12 mx-auto lg:py-20 sm:py-4 mt-20 flex flex-col-reverse lg:flex-row lg:justify-between lg:items-end gap-20">
+                <div>
+                    <h1 class="noto-serif-font text-5xl lg:text-7xl font-bold leading-16 lg:leading-24 text-[var(--color-primary)]"><span class="text-[black]">ALWAYS</span> FRESH <br> FLOWERS</h1>
+                    <p class="text-xl lg:text-2xl my-2 text-[var(--text-secondary)]">Indulge your senses with the beauty and fragrance of <br> our fresh flower shop. From classic roses to exotic <br> blooms, we offer a wide variety of fresh flowers that <br> are perfect for any occasion. </p>
+
+                </div>
+                <div>
+                    <img src="assets/hero-flower.png" alt="">
+                </div>
+            </div>
+         </section>
+    </header>
+
+    <!-- Main Section Start -->
+    <main class="inter-font bg-[#f5f8ff]">
+    <!-- Our Plants Section Start -->
+     <section>
+        <h1>Our Plants</h1>
+        <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <!-- Plants Cards Container -->
+         <div>
+            <!-- Plants Card -->
+             <div>
+                <img src="assets/sample-flower-image.png" alt="">
+                <p>Lily Blossom</p>
+                <p>20 USD</p>
+                <button>ADD TO CART</button>
+             </div>
+         </div>
+     </section>        
+    </main>
+
+    <!-- Footer Section Start -->
+    <footer></footer>
+</body>
+</html>
